@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "B-TREE"
 theme = "mainroad"
 paginate = "10" # Number of posts per page
+googleAnalytics = "UA-157872730-1"
+disqusShortname = "btree-fun"
 
 [Author] # Used in authorbox
   name = "Liu Guili"
@@ -17,7 +19,7 @@ paginate = "10" # Number of posts per page
   twitter_cards = true # Enable Twitter Cards if true
   readmore = false # Show "Read more" button in list if true
   authorbox = true # Show authorbox at bottom of pages if true
-  toc = true # Enable Table of Contents
+  toc = false # Enable Table of Contents
   post_navigation = true # Show post navigation at bottom of pages if true
   post_meta = ["date", "categories", "translations"] # Order of post meta information
   mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
@@ -31,14 +33,14 @@ paginate = "10" # Number of posts per page
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
+  list = "right"  # Configure layout for list pages
   single = false # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets]
   recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget
+  tags_counter = true # Enable counter for each tag in "Tags" widget
 
 [Params.widgets.social]
   # Enable parts of social widget
