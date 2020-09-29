@@ -12,7 +12,7 @@ disqusShortname = "btree-fun"
   avatar = "img/favicon.png"
 
 [Params]
-  subtitle = "风能熄灭蜡烛，却也能使火越烧越旺。" # Subtitle of your site. Used in site header
+  subtitle = "学贵大成，不贵小用。大成者，参于天地之渭也；小用者，谋利计功之渭也。" # Subtitle of your site. Used in site header
   description = "Liu Guili's Personal blog about everything" # Site description. Used in meta description
   copyright = "B-TREE" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
