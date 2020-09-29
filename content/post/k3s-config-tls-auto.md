@@ -1,19 +1,20 @@
 ---
-title: "K3S的基础配置与TLS的自动化维护"
-date: "2020-02-23"
+title: 'K3S的基础配置与TLS的自动化维护'
+date: '2020-02-23'
 toc: false # Enable Table of Contents for specific page
 categories:
-  - "Blog"
+  - 'Blog'
 tags:
-  - "K3S"
-  - "kubernetes"
-  - "TLS"
-  - "DevOps"
-  - "Helm"
-description: "K3S 是专门针对 IoT 和边缘计算(Edge computing)设备开发的轻量级 Kubernetes 集群软件，特别适合低配置硬件的设备上使用比如树莓派(Raspberry Pi)或者 OpenWrt 的路由器设备上。K3S 有单机和高可用(High-Availability)两种使用方式，官方文档在[这里]。"
+  - 'K3S'
+  - 'kubernetes'
+  - 'TLS'
+  - 'DevOps'
+  - 'Helm'
+description: 'K3S 是专门针对 IoT 和边缘计算(Edge computing)设备开发的轻量级 Kubernetes 集群软件，特别适合低配置硬件的设备上使用比如树莓派(Raspberry Pi)或者 OpenWrt 的路由器设备上。K3S 有单机和高可用(High-Availability)两种使用方式，官方文档在[这里]。'
 ---
 
 [K3S](https://k3s.io/) 是专门针对 IoT 和边缘计算(Edge computing)设备开发的轻量级 Kubernetes 集群软件，特别适合低配置硬件的设备上使用比如树莓派(Raspberry Pi)或者 OpenWrt 的路由器设备上。K3S 有单机和高可用(High-Availability)两种使用方式，官方文档在[这里](https://rancher.com/docs/k3s/latest/en/architecture/)。
+
 <!--more-->
 
 ## 安装 K3S
