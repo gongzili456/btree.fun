@@ -19,3 +19,5 @@ You can contact me by:
 - Email: [gongzili456@gmail.com](mailto:gongzili456@gmail.com)
 
 Thanks for reading!
+
+[我的简历](https://cv.btree.fun)
