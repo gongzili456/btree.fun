@@ -31,9 +31,7 @@ F.I.R.E 是这样一种生活方式：
 - 孟岩
 - 我是腾腾爸：投资大白话作者的公众号
 - 定投十年赚十倍：指数基金投资指南作者的公众号
-- 巫师财经
 
 ## 视频内容
 - [跟我一起来谈钱](https://www.youtube.com/channel/UC5RtC9dKUJ9noJ4C6N4XnmQ")
-- [巫师财经](https://www.youtube.com/channel/UC55ahPQ7m5iJdVWcOfmuE6g")
 - [经济机器是如何运行的?](https://www.youtube.com/watch?v=rFV7wdEX-Mo")
