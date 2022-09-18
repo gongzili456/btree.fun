@@ -1,9 +1,8 @@
 ---
-title: ABOUT
+title: About Me
 date: 2019-04-09
 authorbox: false
 sidebar: false
-menu: main
 toc: false # Enable Table of Contents for specific page
 lead: "成长的理由，就是我们有一些很有价值的东西可以给予别人。" # Lead text
 ---
@@ -20,4 +19,4 @@ You can contact me by:
 
 Thanks for reading!
 
-[我的简历](https://cv.btree.fun)
+<!-- [我的简历](https://cv.btree.fun) -->

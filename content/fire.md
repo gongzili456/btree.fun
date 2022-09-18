@@ -3,7 +3,6 @@ title: F.I.R.E
 date: 2019-12-12
 authorbox: false
 sidebar: false
-menu: main
 toc: false # Enable Table of Contents for specific page
 lead: "F.I.R.E (Financial Independence, Retire Early) 意思是财务独立且提前退休，即常说的财务自由。" # Lead text
 ---

@@ -1,59 +1,182 @@
-baseURL = "https://btree.fun/"
+baseURL = "https://0x00.wtf/"
 languageCode = "en-us"
-title = "B-TREE"
-theme = "mainroad"
-paginate = "10" # Number of posts per page
+theme = "PaperMod"
+paginate = "5" # Number of posts per page
 googleAnalytics = "UA-157872730-1"
 disqusShortname = "btree-fun"
+title = "Rory's Island"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
 
-[Author] # Used in authorbox
-  name = "Liu Guili"
-  bio = "成长的理由，就是我们有一些很有价值的东西可以给予别人。"
-  avatar = "img/favicon.png"
+[minify]
+disableXML = true
+minifyOutput = true
 
-[Params]
-  subtitle = "学贵大成，不贵小用。大成者，参于天地之渭也；小用者，谋利计功之渭也。" # Subtitle of your site. Used in site header
-  description = "Liu Guili's Personal blog about everything" # Site description. Used in meta description
-  copyright = "B-TREE" # Footer copyright holder, otherwise will use site title
-  opengraph = true # Enable OpenGraph if true
-  twitter_cards = true # Enable Twitter Cards if true
-  readmore = false # Show "Read more" button in list if true
-  authorbox = true # Show authorbox at bottom of pages if true
-  toc = false # Enable Table of Contents
-  post_navigation = true # Show post navigation at bottom of pages if true
-  post_meta = ["date", "categories", "translations"] # Order of post meta information
-  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
-  dateformat = "2006-01-02" # Change the format of dates
-  mathjax = true # Enable MathJax
-  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
-  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  highlightColor = "#e22d30" # Override highlight color
-  customCSS = ["css/custom.css"] # Include custom CSS files
-  customJS = ["js/custom.js"] # Include custom JS files
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
 
-[Params.sidebar]
-  home = "right" # Configure layout for home page
-  list = "right"  # Configure layout for list pages
-  single = false # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+[params]
+env = "production"
+title = "Rory's Island"
+description = "Rory's life style and study"
+keywords = [ "Blog", "Portfolio", "Moto" ]
+author = "Rory"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = true
+showtoc = false
+tocopen = false
 
-[Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = true # Enable counter for each tag in "Tags" widget
+  [params.assets]
+  favicon = "/favicon.png"
+  favicon16x16 = "/favicon.png"
+  favicon32x32 = "/favicon.png"
+  apple_touch_icon = "/favicon.png"
+  safari_pinned_tab = "/favicon.png"
 
-[Params.widgets.social]
-  # Enable parts of social widget
-#   facebook = "username"
-  twitter = "liu_guili"
-#   instagram = "username"
-#   linkedin = "username"
-  telegram = "liuguili"
-  github = "gongzili456"
-#   gitlab = "username"
-#   bitbucket = "username"
-  email = "gongzili456@gmail.com"
+  [params.label]
+  text = "Home"
+  icon = "/favicon.png"
+  iconHeight = 35
 
-[[Params.widgets.social.custom]]
-  title = "B-TREE"
-  url = "https://btree.fun"
+  [params.profileMode]
+  enabled = false
+  title = "Rory's Island"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = """
+  - Welcome to Rory's Island.
+  - More info [about me](/about)
+  """
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/hola_rory"
+
+  [[params.socialIcons]]
+  name = "stackoverflow"
+  url = "https://stackoverflow.com"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/gongzili456"
+
+[params.analytics.google]
+SiteVerificationTag = "UA-157872730-1"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/gongzili456/0x00.wtf/content"
+  Text = "Suggest Changes"
+  appendFilePath = false
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 1
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 2
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 3
+
+[[menu.main]]
+identifier = "ride"
+name = "Ride"
+url = "/ride/"
+weight = 4
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 5
+
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
+
+
