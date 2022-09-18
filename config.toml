@@ -107,7 +107,7 @@ SiteVerificationTag = "XYZabc"
   hiddenInSingle = true
 
   [params.editPost]
-  URL = "https://github.com/gongzili456/0x00.wtf/content"
+  URL = "https://github.com/gongzili456/btree.fun/content"
   Text = "Suggest Changes"
   appendFilePath = true
 
