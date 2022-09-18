@@ -11,6 +11,34 @@ tags:
   - 'DevOps'
   - 'Helm'
 description: 'K3S 是专门针对 IoT 和边缘计算(Edge computing)设备开发的轻量级 Kubernetes 集群软件，特别适合低配置硬件的设备上使用比如树莓派(Raspberry Pi)或者 OpenWrt 的路由器设备上。K3S 有单机和高可用(High-Availability)两种使用方式，官方文档在[这里]。'
+author: "Rory"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: false # to disable highlightjs
+disableShare: false
+hideSummary: true
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/gongzili456/0x00.wtf/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 [K3S](https://k3s.io/) 是专门针对 IoT 和边缘计算(Edge computing)设备开发的轻量级 Kubernetes 集群软件，特别适合低配置硬件的设备上使用比如树莓派(Raspberry Pi)或者 OpenWrt 的路由器设备上。K3S 有单机和高可用(High-Availability)两种使用方式，官方文档在[这里](https://rancher.com/docs/k3s/latest/en/architecture/)。

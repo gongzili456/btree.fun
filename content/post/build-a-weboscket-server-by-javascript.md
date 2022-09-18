@@ -10,6 +10,35 @@ tags:
   - "javascript"
   - "node.js"
   - "programming"
+
+author: "Rory"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+canonicalURL: "https://canonical.url/to/page"
+disableHLJS: false # to disable highlightjs
+disableShare: false
+hideSummary: true
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "<image path/url>" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "<text>" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
+editPost:
+    URL: "https://github.com/gongzili456/0x00.wtf/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 ---
 
 根据[RFC 6455](https://tools.ietf.org/html/rfc6455)文件对 WebSocket 的描述，我们可以了解到：WebSocket 是『在受控环境中运行不受信任代码的一个客户端到一个从该代码已经选择加入通信的远程主机间的全双工通信』。

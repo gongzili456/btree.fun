@@ -109,7 +109,7 @@ SiteVerificationTag = "XYZabc"
   [params.editPost]
   URL = "https://github.com/gongzili456/0x00.wtf/content"
   Text = "Suggest Changes"
-  appendFilePath = false
+  appendFilePath = true
 
   [params.fuseOpts]
   isCaseSensitive = false
