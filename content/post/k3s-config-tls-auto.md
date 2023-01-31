@@ -10,7 +10,7 @@ tags:
   - 'TLS'
   - 'DevOps'
   - 'Helm'
-description: 'K3S 是专门针对 IoT 和边缘计算(Edge computing)设备开发的轻量级 Kubernetes 集群软件，特别适合低配置硬件的设备上使用比如树莓派(Raspberry Pi)或者 OpenWrt 的路由器设备上。K3S 有单机和高可用(High-Availability)两种使用方式，官方文档在[这里]。'
+description: ''
 author: "Rory"
 # author: ["Me", "You"] # multiple authors
 showToc: true

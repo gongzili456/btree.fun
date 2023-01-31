@@ -8,7 +8,7 @@ tags:
   - 'java'
   - 'jdk'
   - 'source code'
-description: 'HashMap 类维护了一个 Node<K, V>类型的数组 Node<K, V>[]table,用来维护 Key。Node 是 HashMap 的内部静态类，并实现了 Map.Entry 接口。在第一次使用的时候初始化，并在必要的时候扩容，数组的长度永远是 2 的倍数。'
+description: ''
 ---
 
 HashMap 类维护了一个 Node<K, V>类型的数组 Node<K, V>[] table,
